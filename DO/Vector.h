@@ -16,6 +16,9 @@ Vector MultiplyVector(double K, Vector vector) {
 	tmp.x2 = vector.x2*K;
 	return tmp;
 }
+double MultiplyVectors(Vector vector1, Vector vector2) {
+	return vector1.x1* vector2.x1 + vector1.x2 * vector2.x2;
+}
 Vector SetVector(double x1, double x2) {
 	Vector tmp;
 	tmp.x1 = x1;
