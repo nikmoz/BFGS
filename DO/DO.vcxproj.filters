@@ -15,18 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="OneDSearch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Vector.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Matrix.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="ODSearch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BFGS.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ODSearch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

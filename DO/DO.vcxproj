@@ -116,10 +116,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BFGS.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="ODSearch.cpp" />
+    <ClCompile Include="Vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Matrix.h" />
-    <ClInclude Include="OneDSearch.h" />
+    <ClInclude Include="ODSearch.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
